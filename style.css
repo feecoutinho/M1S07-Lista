@@ -1,0 +1,270 @@
+/*CSS file*/
+html {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+	margin: 0;
+	background-color: whitesmoke;
+}
+
+
+* {
+	outline: 0;
+	box-sizing: border-box;
+	font-family: Poppins, sans-serif;
+}
+
+
+.section_logo {
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	height:10em;
+}
+
+.section_logo > * {
+	min-width: 570px;
+	width: 30%;
+}
+
+.pesquisa-container > * {
+	padding: 5px;
+}
+
+.botao-pesquisa {
+	background-color:#FF914D;
+	border-radius: 12px;
+/*	font-family: Verdana, Geneva, Tahoma, sans-serif;*/
+	border: none;
+	color: white;
+	font-weight: bold;
+}
+
+.barra-pesquisa {
+	width: 30em;
+	border-radius: 12px;
+	background-color: azure;
+	border: none;
+}
+
+.menu{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color:#FF914D;
+	position: sticky;
+	top: 0;
+	font-size: 120%;
+/*	font-family: Verdana, Geneva, Tahoma, sans-serif;*/
+	display: flex;
+	justify-content: center;
+}
+
+.opcoes{
+	float: left;
+	padding: 0.5em 1em 0.5em 1em;
+}
+
+.opcoes a{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.opcoes:hover{
+	background-color: #69688c;
+}
+
+.medicamentos {
+	width: 100%;
+	height: 40em;
+}
+.card_list{
+	margin: 0 0.5em 0 1em;
+	display: flex;
+	justify-content: space-around;
+    flex-direction: row;
+}
+
+.card{
+	position: relative;
+	width: 280px;
+	margin: 1em;
+	background-color: #5271FF;
+	border-radius: 12px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex-wrap: nowrap;
+}
+
+.card:hover{
+	background-color: #8db8f6;
+}
+
+.prod_img{
+	width: 80%;
+	height: 90%;
+	border-radius: 12px;
+	margin: 5%px;
+}
+
+.prod_name{
+	margin-top: 5px;
+/*	font-family: Verdana, Geneva, Tahoma, sans-serif;*/
+	color: white;
+	font-weight: bold;
+	text-align: center;
+}
+
+span{
+	display: inline-block;
+	background-size: cover;
+	width: 2em;
+	height: 2em;
+	position: absolute;
+}
+
+.fav_ico{
+	background-image: url(./imgs/heart-ico.png);
+	top: 0.25em;
+	right: 0.25em;
+}
+
+.cart_ico{
+	background-image: url(./imgs/cart.png);
+	right: -2.25em;
+	bottom: 0;
+}
+
+.prod_price{
+/*	font-family: Verdana, Geneva, Tahoma, sans-serif;*/
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+.prod_add{
+	position: relative;
+	border-radius: 12px;
+	padding: 4px;
+	margin: 4px;
+	background-color: azure;
+	border: none;
+/*	font-family: Verdana, Geneva, Tahoma, sans-serif;*/
+}
+
+.flex-centralizado {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.form-container {
+	min-width: 50%;
+    padding-top: 1%;
+    display: flex;
+    background-color:#FF914D;
+    justify-content: center;
+	border-radius: 12px;
+}
+
+.form {
+    margin: 2px;
+    padding: 5px;
+    width: 90%;
+	justify-content: center;
+	align-items: center;
+}
+
+.form input {
+	border-radius: 5px;
+	border: none;
+	min-height: 25px ;
+}
+
+.form textarea {
+	border-radius: 5px;
+	border: none;
+	min-height: 50px;
+}
+
+.form > * {
+	width: 90%;
+}
+
+.form #opcao1, #opcao2 {
+	min-height: 10px;
+}
+
+.topframe {
+	background-color: #FF914D;
+	font-size: 120%;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: white;
+	font-weight: 600;
+	padding: 5px;
+	text-align: center;
+}
+
+img {
+	vertical-align: bottom;
+}
+
+.banner {
+	width: 100%;
+	padding-bottom: 0;
+}
+
+.bottom-frame {
+	background-color: #FF914D;
+	font-size: 120%;
+/*	font-family: Poppins, sans-serif;*/
+	color: white;
+	font-weight: 600;
+	padding:5px;
+	text-align: center;
+	margin:0px;
+}
+
+.delivery {
+	width: 100%;
+	background-color:whitesmoke;
+}
+
+.home_delivery {
+	font-size: 120%;
+	color: white;
+	font-weight: 600;
+	padding: 5px;
+	text-align: center;
+	margin:0px;
+	background-color: #FF914D;
+}
+
+.banner-entrega {
+	width: 100%;
+	background-color: whitesmoke;
+}
+
+.dbz {
+	width: 100%;
+	display:flex;
+	vertical-align: bottom;
+	padding: 0;
+}
+
+footer{
+	width: 100%;
+	background-color: #FF914D;
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+
+p, h1, h2, h3, h4, img {
+	margin: 0;
+}

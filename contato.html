@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<title>Fale conosco</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+	<script src="main.js"></script>
+</head>
+
+<body>
+<section class="flex-centralizado">
+	<h3 class="titulo-form">Formulário de contato</h3>
+
+	<div class="form-container">
+
+	<form class="form" action="enviar-contato" method="post">
+
+		<label class="form-texto" for="nome">Nome:</label><br>
+		<input class="form-input" autofocus type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+		<br><br>
+
+		<label class="form-texto" for="telefone">Telefone:</label><br>
+		<input class="form-input"  type="tel" id="telefone" name="Telefone" placeholder="0000-0000" required>
+		<br><br>
+
+		<label class="form-texto" for="email">Email:</label><br>
+		<input class="form-input" type="email" id="email" name="email">
+		<br><br>
+
+ 		<label for="contato">Motivo do contato:</label><br>
+			<select id="contato" name="Motivo do contato">
+			<option value="">Orçamento</option>
+				<option value="Entrega">Entrega</option>
+			<option value="manipulacao">Manipulação</option>
+				<option value="informacoes">Informações</option>
+		</select>
+		<br><br> 
+
+		<label for="mensagem">Mensagem:</label><br>
+		<textarea id="mensagem" name="mensagem"></textarea>
+		<br><br>
+		<input type="submit">
+		<br><br>
+
+		<label><b>Este contato é sobre um orçamento?</b></label><br>
+		<div>
+			<input type="checkbox" id="opcao1" name="opcao" value="Sim">
+			<label for="opcao1">Sim</label>
+
+			<input type="checkbox" id="opcao2" name="opcao" value="Não" checked>
+			<label for="opcao2">Sim</label>
+		</div>
+    </form>
+</section>
+</body>
+</html>
